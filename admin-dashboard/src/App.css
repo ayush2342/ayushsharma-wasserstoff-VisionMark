@@ -1,0 +1,71 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Image Capture Styles */
+.capture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.capture-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.capture-button:hover {
+    background-color: #0056b3;
+}
+
+/* Annotation Styles */
+.annotation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.annotation-image {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.boundingBox {
+    position: absolute;
+    border: 2px solid #007bff;
+    pointer-events: none;
+}
+
+.annotation-label {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
